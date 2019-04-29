@@ -19,7 +19,7 @@ void main()
 	printf(" u_a = %u, sizeof(u_a) = %u\n", u_a, sizeof(u_a));
 	printf(" us_a = %u, sizeof(us_a) = %u\n", us_a, sizeof(us_a));
 	printf(" ul_a = %lu, sizeof(ul_a) = %u\n", ul_a, sizeof(ul_a));
-	printf(" ull_a = %llu, sizeof(ull_a) = %u\n", ull_a, sizeof(ull_a));//加了一行注释，123
+	printf(" ull_a = %llu, sizeof(ull_a) = %u\n", ull_a, sizeof(ull_a));
 
 
 }
