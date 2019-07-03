@@ -12,15 +12,14 @@ void main()
 	unsigned long ul_a = 7;
 	unsigned long long ull_a = 8;
 
-	printf(" i_a = %d, sizeof(i_a) = %u\n", i_a, sizeof(i_a));
-	printf(" s_a = %d, sizeof(s_a) = %u\n", s_a, sizeof(s_a));
-	printf(" l_a = %ld, sizeof(l_a) = %u\n", l_a, sizeof(l_a));
-	printf(" ll_a = %lld, sizeof(ll_a) = %u\n", ll_a, sizeof(ll_a));
-	printf(" u_a = %u, sizeof(u_a) = %u\n", u_a, sizeof(u_a));
-	printf(" us_a = %u, sizeof(us_a) = %u\n", us_a, sizeof(us_a));
-	printf(" ul_a = %lu, sizeof(ul_a) = %u\n", ul_a, sizeof(ul_a));
-	printf(" ull_a = %llu, sizeof(ull_a) = %u\n", ull_a, sizeof(ull_a));
+	printf(" i_a = %d, sizeof(int) = %u\n", i_a, sizeof(i_a));
+	printf(" s_a = %d, sizeof(short) = %u\n", s_a, sizeof(s_a));
+	printf(" l_a = %ld, sizeof(long) = %u\n", l_a, sizeof(l_a));
+	printf(" ll_a = %lld, sizeof(long long) = %u\n", ll_a, sizeof(ll_a));
+	printf(" u_a = %u, sizeof(unsigned) = %u\n", u_a, sizeof(u_a));
+	printf(" us_a = %u, sizeof(unsigned short) = %u\n", us_a, sizeof(us_a));
+	printf(" ul_a = %lu, sizeof(unsigned long) = %u\n", ul_a, sizeof(ul_a));
+	printf(" ull_a = %llu, sizeof(unsigned long long) = %u\n", ull_a, sizeof(ull_a));
 
 
 }
-
